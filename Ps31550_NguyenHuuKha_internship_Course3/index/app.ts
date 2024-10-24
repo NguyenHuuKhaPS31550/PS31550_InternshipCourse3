@@ -82,7 +82,6 @@ function rateMovie(index: number, newDanhGia: number): void {
   displayMovie(Phim);           
 }
 
-// Hiển thị danh sách phim khi trang được tải
 document.addEventListener("DOMContentLoaded", () => {
   displayMovie(Phim);
 });
